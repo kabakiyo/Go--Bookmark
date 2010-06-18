@@ -1,0 +1,17 @@
+{
+  "name": "Go! Bookmark",
+  "version": "1.0",
+  "description": "Go to favaritet link anywhere.",
+  "permissions": [
+	"bookmarks"
+  ],
+	"background_page": "background.html",
+	"options_page": "options.html",
+	"content_scripts": [
+		{
+			"matches": ["http://*/*", "https://*/*"],
+			"css": ["bookmark.css"],
+			"js": ["go_bookmark.js"]
+		}
+	]
+}

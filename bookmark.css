@@ -1,0 +1,126 @@
+#__goForm {
+	top: 0px;
+/*	height: 120px;*/
+	width: 100%;
+	margin: 4px;
+	padding: 0px;
+	max-height: 2000px;
+	max-width: 600px;
+	min-height: 0px;
+	min-width: 0px;
+	z-index: 2147483647;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #005BFF;
+/*	opacity: 0.85;*/
+	border-radius: 3px;
+	left: 0px;
+	position: fixed;
+	visibility: hidden;
+	text-align: left;
+/*	font-size: 165% !important;*/
+/*	height: 580px;*/
+	overflow: hidden;
+}
+
+#__goSearchContainer{
+	height: 37px;	
+	font-size: 20px;
+}
+
+#searchBoxLabel {
+	color: #ffffff;
+	margin: 3px;
+	text-align: left;
+	float: left;
+}
+
+#searchBox {
+/*	float: right;*/
+	right: 0px;
+	position: absolute;
+	margin: 5px;
+	text-align: left;
+	color: #000000;
+	padding: 0px;
+/*	border: 3px solid #B4B4B4;*/
+	background-color: #ffffff;
+	border-radius: 2px;
+/*	height: 1em; */
+	font-size: 100%;
+	width: 95%;
+	overflow: hidden;
+}
+
+#__goBookmarkList {
+	margin: 3px;
+	background-color: #ffffff;
+	border-radius: 3px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	max-height: 500px;
+	max-width: 600px;
+}
+
+#__goBookmarkList ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+#__goBookmarkList ul li{
+	display: list-item;
+	list-style-type: none;
+}
+
+#__goBookmarkList ul li img{
+	display: none;
+}
+
+.__goResultItem {
+	margin: 0px 1px 1px 1px;
+	padding: 5px 6px 2px;
+	background-color: #EEE;
+	color: #000000;	
+	border-left: 1px solid #DDD;
+	border-right: 1px solid #DDD;
+	border-top: 1px solid #999;
+	border-radius: 3px;
+	font-weight: bold;
+}
+.__goEven {
+/*	background-color: #e2f5ff;*/
+}
+
+.__goUrl {
+	padding-left: 15px;
+	font-weight: normal;
+	color: #333;
+}
+
+.__goResultItem a:visited {
+/*	color: #005BFF;*/
+	color: #000000;
+	font-weight: normal;
+}
+.__goResultItem .__goItemLink {
+	text-decoration: none;
+	color: #000000;
+/*	font-weight: normal;*/
+/*	color: #005BFF;	*/
+}
+.__goItemLink em {
+/*	font-style: italic; */
+	font-style: normal;
+	background-color: yellow;
+}
+.__goItemSelected {
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255, 255, 255, 0.792969)), to(rgba(255,255,255,0)));
+/*			background-color: #E6E6E6;
+			border: 1px solid #D9D9D9;
+			color: #FFFFFF !important;
+			opacity: 0.85;*/
+	background-color: #C0DAFD;
+	border: 1px solid #549BF7;
+	border-radius: 2px;
+	z-index:2;
+}
